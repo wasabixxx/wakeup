@@ -31,10 +31,10 @@
             title = "Muộn rồi đó bạn </br/> Ngủ đi nào";
         }else if (hours >= 4 && hours < 11) {
             shift = "morning";
-            title = "Dậy thôi giờ này thì không ai ngủ nữa";
+            title = "Dậy thôi giờ này thì không ai ngủ nữa :))";
         } else if (hours >= 11 && hours < 14) {
             shift = "noon";
-            title = "Buổi trưa thì nghỉ ngơi một tí thôi";
+            title = "Nghỉ trưa một xíu nào";
         } else if (hours >= 14 && hours < 18) {
             shift = "afternoon";
             title = "Buổi chiều cố mà tập trung cho đỡ buồn ngủ";

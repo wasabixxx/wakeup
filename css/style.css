@@ -15,6 +15,7 @@
  * Font Awesome by Dave Gandy | http://fontawesome.io
  * ------------------------------------------------------------
  */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @font-face {
 	font-family: 'fontawesome';
 	src:  url('fonts/fontawesome3dc0.eot?74hzpf');
@@ -28,7 +29,6 @@
 
 [class^="fa-"], [class*=" fa-"] {
 	font-family: 'fontawesome' !important;
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -721,7 +721,6 @@ h3 [class*=" fa-"] {
 	animation: fadeZoomIn .4s forwards;
 	background-color: #1f1f1f;
 	background-color: rgba(31,31,31,0.8);
-	-webkit-backface-visibility: hidden;
 	bottom: 0;
 	display: none;
 	left: 0;
@@ -792,8 +791,8 @@ h3 [class*=" fa-"] {
 
 .preload-text {
 	color: #73ba37;
-	font-family: 'Roboto Slab', serif;
-	font-size: 14px;
+	font-family: 'Bangers',cursive;
+	font-size: 20px;
 	text-align: center;
 }
 
@@ -813,6 +812,7 @@ h3 [class*=" fa-"] {
 	margin: 0 3px;
 	opacity: 0.6;
 	width: 14px;
+	border-radius: 100%;
 }
 
 .bounce1 {
